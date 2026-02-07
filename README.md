@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MPowr Products Inc. Website
+
+Corporate website for MPowr Products Inc., manufacturer of industrial door closers.
+
+🌐 **Live site:** [mpowrproducts.com](https://www.mpowrproducts.com) (pending deployment)
+
+## Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS 4
+- **Language:** TypeScript
+- **Components:** Custom UI components (shadcn-inspired)
+- **Deployment:** Vercel (planned)
+
+## Features
+
+- ✅ Responsive design (mobile-first)
+- ✅ Modern industrial aesthetic
+- ✅ Product catalog (MP-800 series)
+- ✅ Quote request form
+- ✅ Contact form
+- ✅ Distributor portal with compliance docs
+- ✅ SEO optimized with metadata
+- 🔄 Shopify integration (planned)
+- 🔄 Form email delivery (planned)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Install dependencies
+pnpm install
+
+# Run development server
 pnpm dev
-# or
-bun dev
+
+# Build for production
+pnpm build
+
+# Start production server
+pnpm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/                    # Next.js App Router pages
+│   ├── page.tsx           # Homepage
+│   ├── about/             # About page
+│   ├── products/          # Products listing & details
+│   ├── contact/           # Contact form
+│   ├── quote/             # Quote request form
+│   └── distributors/      # Distributor portal
+├── components/            # React components
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   └── ui/               # Reusable UI components
+└── lib/                  # Utilities
+    └── utils.ts
+```
 
-## Learn More
+## Compliance Documents
 
-To learn more about Next.js, take a look at the following resources:
+The `/public/docs/` folder contains regulatory compliance documents:
+- USMCA Certificate 2026
+- EU RoHS Compliance Letter
+- MP-800 Specification Sheets
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Vercel (Recommended)
 
-## Deploy on Vercel
+1. Connect this repository to Vercel
+2. Configure the custom domain: `www.mpowrproducts.com`
+3. Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Environment Variables
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For form handling (when implemented):
+```
+RESEND_API_KEY=your_resend_key
+CONTACT_EMAIL=info@mpowrproducts.com
+```
+
+For Shopify integration (when implemented):
+```
+SHOPIFY_STORE_DOMAIN=your-store.myshopify.com
+SHOPIFY_STOREFRONT_TOKEN=your_token
+```
+
+## License
+
+Private - MPowr Products Inc. All rights reserved.
