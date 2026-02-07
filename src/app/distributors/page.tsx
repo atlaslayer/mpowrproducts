@@ -6,31 +6,25 @@ const documents = [
   {
     name: "USMCA Certificate 2026",
     description: "USMCA/NAFTA compliance certification for cross-border trade",
-    file: "/assets/MPowr-USMCA-2026.pdf",
+    file: "/docs/USMCA-Certificate-2026.pdf",
     category: "Trade Compliance",
   },
   {
-    name: "EU RoHS Compliance Letter",
+    name: "EU RoHS Compliance Letter 2026",
     description: "Declaration of compliance with EU RoHS Directive",
-    file: "/assets/MPowr-RoHS-Requirements-2026.pdf",
+    file: "/docs/EU-RoHS-Compliance-2026.pdf",
     category: "Environmental",
   },
   {
-    name: "Regulatory Requirements Letter",
+    name: "Regulatory Requirements Letter 2026",
     description: "Comprehensive regulatory compliance documentation",
     file: "/assets/MPowr-Regulatory-Requirements-2026.pdf",
     category: "Regulatory",
   },
   {
-    name: "REACH SVHC Declaration",
-    description: "EU REACH Article 33 compliance statement",
-    file: "/assets/MPowr-REACH-SVHC.pdf",
-    category: "Environmental",
-  },
-  {
     name: "MP-800 Specification Sheet",
     description: "Complete technical specifications for the MP-800",
-    file: "/assets/MP800-Specification-Sheet.pdf",
+    file: "/docs/MP800-Spec-Sheet-2025.pdf",
     category: "Technical",
   },
 ]
