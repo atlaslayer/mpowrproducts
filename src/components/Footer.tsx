@@ -13,7 +13,7 @@ export function Footer() {
               className="h-10 w-auto brightness-0 invert mb-4"
             />
             <p className="text-sm leading-6 mb-4">
-              Manufacturing durable door closers and industrial parts for over 20 years. 
+              Manufacturing durable door closers and industrial parts for over 25 years. 
               Proudly NAFTA made, serving industry leaders throughout North America.
             </p>
             <p className="text-sm">

@@ -27,28 +27,29 @@ export default function AboutPage() {
               </h2>
               <div className="mt-6 space-y-4 text-gray-600">
                 <p>
-                  MPowr Products Inc. has been at the forefront of industrial door closer 
-                  manufacturing for over two decades. Founded with a commitment to quality 
-                  and reliability, we've grown from a small operation to a trusted supplier 
-                  for industry leaders throughout North America.
+                  MPowr Products Inc. has provided hundreds of thousands of proven 
+                  Canadian-manufactured door closers for over 25 years. Based in London, 
+                  Ontario, Canada, we've built a reputation for quality and reliability 
+                  that industry leaders across North America depend on.
                 </p>
                 <p>
-                  Our flagship product, the MP-800 POWR-Closer, represents the culmination 
-                  of years of engineering refinement. Designed for durability and ease of 
-                  installation, it's become the go-to solution for light-duty door control 
-                  applications.
+                  Our closers are designed to be affordable, durable, and environmentally 
+                  safe. The MP-800 POWR-Closer features a lightweight design with a maximum 
+                  pull force of 35 lbs, perfect for light-duty applications. Prior to becoming 
+                  MPowr, our closer products were known as Rota-closer by Lee Products and Ives.
                 </p>
                 <p>
-                  Based in London, Ontario, we're proud to manufacture all our products 
-                  in North America, supporting local industry and ensuring the highest 
-                  quality standards for our customers.
+                  Today, MPowr serves diverse sectors including building construction, medical, 
+                  pharmaceutical, chemical, environmental, and insurance industries. Our closers 
+                  are trusted in applications ranging from screen doors and slab doors to garbage 
+                  chutes, fire-proof cabinets, and laboratory environments.
                 </p>
               </div>
             </div>
             
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-slate-50 rounded-xl p-6 text-center">
-                <div className="text-4xl font-bold text-orange-500 mb-2">20+</div>
+                <div className="text-4xl font-bold text-orange-500 mb-2">25+</div>
                 <div className="text-sm text-gray-600">Years in Business</div>
               </div>
               <div className="bg-slate-50 rounded-xl p-6 text-center">

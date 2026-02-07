@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "MPowr Products Inc. | Industrial Door Closers",
-  description: "Manufacturing durable hydraulic door closers for over 20 years. NAFTA made, serving industry leaders throughout North America.",
+  description: "Manufacturing durable hydraulic door closers for over 25 years. NAFTA made, serving industry leaders throughout North America.",
   keywords: ["door closer", "hydraulic door closer", "MP-800", "industrial door closer", "NAFTA", "made in Canada"],
   icons: {
     icon: "/images/mpowr-logo.png",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "MPowr Products Inc. | Industrial Door Closers",
-    description: "Manufacturing durable hydraulic door closers for over 20 years. NAFTA made.",
+    description: "Manufacturing durable hydraulic door closers for over 25 years. NAFTA made.",
     siteName: "MPowr Products Inc.",
     type: "website",
   },

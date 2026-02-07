@@ -22,7 +22,7 @@ export default function Home() {
                 <span className="block text-orange-500">Door Closers</span>
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                For over 20 years, MPowr Products has been manufacturing durable hydraulic door closers 
+                For over 25 years, MPowr Products has been manufacturing durable hydraulic door closers 
                 for industry leaders across North America. Quality you can trust, proudly NAFTA made.
               </p>
               <div className="mt-10 flex flex-wrap gap-4">
@@ -89,9 +89,9 @@ export default function Home() {
               <div className="mx-auto h-16 w-16 flex items-center justify-center rounded-full bg-orange-100 text-orange-500 mb-6">
                 <Award className="h-8 w-8" />
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">20+ Years Experience</h3>
+              <h3 className="text-xl font-semibold text-slate-900 mb-3">25+ Years Experience</h3>
               <p className="text-gray-600">
-                Two decades of manufacturing excellence serving industry leaders.
+                Over two decades of manufacturing excellence serving industry leaders.
               </p>
             </div>
 
