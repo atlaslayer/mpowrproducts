@@ -7,9 +7,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-white mb-4">
-              <span className="text-orange-500">M</span>POWR Products Inc.
-            </h3>
+            <img 
+              src="/images/mpowr-logo.png" 
+              alt="MPowr Products Inc." 
+              className="h-10 w-auto brightness-0 invert mb-4"
+            />
             <p className="text-sm leading-6 mb-4">
               Manufacturing durable door closers and industrial parts for over 20 years. 
               Proudly NAFTA made, serving industry leaders throughout North America.

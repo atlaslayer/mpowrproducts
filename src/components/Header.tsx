@@ -20,10 +20,12 @@ export function Header() {
     <header className="bg-slate-900 sticky top-0 z-50">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8">
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <span className="text-2xl font-bold text-white">
-              <span className="text-orange-500">M</span>POWR
-            </span>
+          <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
+            <img 
+              src="/images/mpowr-logo.png" 
+              alt="MPowr Products Inc." 
+              className="h-8 w-auto brightness-0 invert"
+            />
           </Link>
         </div>
         
